@@ -1,0 +1,299 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (max-width: 1500px) {
+    .container_X {
+        width: 100%;
+        margin: auto;
+        box-sizing: border-box;
+    }
+}
+.about_text {
+	top: -17px;
+	
+}
+.about_img {
+	margin-right: 30px;
+}
+
+/* 
+##Device = Laptops, Desktops
+##Screen = B/w 1500px
+*/
+
+@media (max-width: 1280px) {
+    /* CSS */
+    .service_card {
+        padding: 70px 0;
+    }
+    .card_item p {
+        font-size: 14px;
+
+    }
+    .card_item h2 {
+        font-size: 20px;
+    }
+    .about_img {
+        margin-right: 0px;
+    }
+    .about_img {
+        width: 100%;
+        text-align: center;
+    }
+    .about_text {
+        width: 100%;
+        padding: 56px 100px;
+    }
+    .about_img {
+        margin-right: 0px;
+    }
+    .about_text {
+        text-align: left;
+        width: 100%;
+        padding: 56px 175px;
+    }
+    .about_text {
+        text-align: center;
+        width: 100%;
+        padding: 56px 175px;
+    }
+}
+
+/* 
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w  1024px
+*/
+
+@media (max-width: 992px) {
+    /* CSS */
+    .header_logo {
+        margin-top: -42px;
+        width: 100%;
+        text-align: center;
+    }
+    .header_menu {
+        margin-top: 0px;
+        width: 100%;
+    }
+    .header_menu ul{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .header_section {
+        padding: 60px;
+    }
+
+    .card_item span i {
+        font-size: 30px;
+    }
+    .contact_title p {
+        padding: 0 50px;
+    }
+    .card_item {
+        float: left;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+    }
+    .about_text {
+
+        padding: 56px 110px;
+    }
+    .about_title h2 {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .border_box{
+        border-bottom: 2px solid #00b890;
+    }
+    .servive_section {
+        border-bottom: none;
+        padding-bottom: 50px;
+    }
+    .service_card {
+        padding: 40px 0;
+    }
+
+}
+
+/* 
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px 
+*/
+
+@media (max-width: 768px) {
+    /* CSS */
+    .header_section {
+        padding: 60px;
+    }
+    .banner_section {
+        background-position: -340px -46px;
+        padding: 176px 0;
+    }
+    .header_logo {
+        float: left;
+        display: block;
+        width: 100%;
+    }
+    .header_logo a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 30px;
+        text-align: center;
+        display: block;
+        margin: 0px;
+    }
+    .banner_item a {
+        padding: 10px 20px;
+    }
+    .header_menu {
+        margin-top: 0px;
+        width: 100%;
+    }
+    .service_card {
+        padding: 30px 0;
+    }
+    
+    .about_text {
+        padding: 50px 85px;
+    }
+    .contact_area {
+        float: left;
+        width: 100%;
+    }
+    .about_title h2 {
+
+        margin-bottom: 20px;
+    }
+    .about_text {
+        width: 100%;
+    }
+    .contact_call {
+        width: 100%;
+
+    }
+    .contact_email {
+        width: 100%;
+
+    }
+    .contact_info {
+        margin-bottom: 290px;
+    }
+    .contact_email {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .contact_area {
+        margin: 20px 0;
+    }
+    .contact_title {
+        margin-bottom: -75px;
+    }
+    .banner_text h4 {
+        font-size: 19px;
+
+    }
+    .banner_text h1 {
+        font-size: 45px;
+
+    }
+    .header_menu ul li a {
+        padding: 10px 15px;
+    }
+    .footer_item p {
+        font-size: 16px;
+    }
+    .header_section {
+        padding: 60px 0;
+    }
+}
+
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px 
+*/
+
+@media (max-width: 630px) {
+    /* CSS */
+    .header_section {
+        padding: 60px 0;
+    }
+    .header_menu ul li a {
+        padding: 10px 9px;
+
+    }
+    .header_logo a {
+        font-size: 25px;
+        margin: 0px;
+    }
+}
+@media (max-width: 630px) {
+    .header_menu ul li a {
+        padding: 10px 7px;
+        font-size: 10px;
+    }
+    .banner_text h1 {
+        font-size: 30px;
+    }
+    .about_title h2 {
+        font-size: 30px;
+
+    }
+    .service_title h2 {
+        font-size: 30px;
+
+    }
+    .contact_title h2 {
+        font-size: 30px;
+    }
+    .header_section {
+        padding: 50px 0;
+    }
+    .icon_item ul li a {
+        color: #fff;
+        font-size: 16px;
+    }
+    .icon_item ul li a {
+        padding: 10px 10px;
+
+    }
+}
+
+/* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px 
+*/
+
+@media (max-width: 375px) {
+    /* CSS */
+    .banner_section {
+        padding: 90px 0;
+    }
+    .header_menu ul li a {
+        padding: 0px 7px;
+        font-size: 9px;
+    }
+    .header_logo a {
+        font-size: 20px;
+        margin: 0px;
+    }
+    .banner_item a {
+        padding: 5px 12px;
+    }
+    .banner_text h4 {
+        font-size: 15px;
+    }
+    .banner_text h1 {
+        font-size: 25px;
+    }
+    .footer_item p {
+        font-size: 13px;
+    }
+    
+}
